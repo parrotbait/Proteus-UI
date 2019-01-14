@@ -11,10 +11,6 @@
 		D79E822821E7F71B00DAC211 /* Proteus_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79E821E21E7F71B00DAC211 /* Proteus_UI.framework */; };
 		D79E822D21E7F71B00DAC211 /* Proteus_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E822C21E7F71B00DAC211 /* Proteus_UITests.swift */; };
 		D79E822F21E7F71B00DAC211 /* Proteus_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = D79E822121E7F71B00DAC211 /* Proteus_UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D79E825221E7F77500DAC211 /* LanguageSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E824E21E7F77400DAC211 /* LanguageSelectorView.swift */; };
-		D79E825321E7F77500DAC211 /* LocalisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E824F21E7F77400DAC211 /* LocalisedButton.swift */; };
-		D79E825421E7F77500DAC211 /* LocalisedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E825021E7F77400DAC211 /* LocalisedLabel.swift */; };
-		D79E825521E7F77500DAC211 /* LocalisedBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E825121E7F77500DAC211 /* LocalisedBarButtonItem.swift */; };
 		D79E825C21E7F85600DAC211 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E825B21E7F85600DAC211 /* Coordinator.swift */; };
 		D79E825E21E7F86F00DAC211 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E825D21E7F86F00DAC211 /* Storyboarded.swift */; };
 /* End PBXBuildFile section */
@@ -37,10 +33,6 @@
 		D79E822721E7F71B00DAC211 /* Proteus-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proteus-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79E822C21E7F71B00DAC211 /* Proteus_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proteus_UITests.swift; sourceTree = "<group>"; };
 		D79E822E21E7F71B00DAC211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D79E824E21E7F77400DAC211 /* LanguageSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectorView.swift; sourceTree = "<group>"; };
-		D79E824F21E7F77400DAC211 /* LocalisedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedButton.swift; sourceTree = "<group>"; };
-		D79E825021E7F77400DAC211 /* LocalisedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedLabel.swift; sourceTree = "<group>"; };
-		D79E825121E7F77500DAC211 /* LocalisedBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedBarButtonItem.swift; sourceTree = "<group>"; };
 		D79E825B21E7F85600DAC211 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		D79E825D21E7F86F00DAC211 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,10 +106,6 @@
 		D79E826121E7FABC00DAC211 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D79E824E21E7F77400DAC211 /* LanguageSelectorView.swift */,
-				D79E825121E7F77500DAC211 /* LocalisedBarButtonItem.swift */,
-				D79E824F21E7F77400DAC211 /* LocalisedButton.swift */,
-				D79E825021E7F77400DAC211 /* LocalisedLabel.swift */,
 				D708663E21E8BFD60000E477 /* RoundedView.swift */,
 			);
 			path = Views;
@@ -232,12 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79E825321E7F77500DAC211 /* LocalisedButton.swift in Sources */,
-				D79E825221E7F77500DAC211 /* LanguageSelectorView.swift in Sources */,
 				D708663F21E8BFD60000E477 /* RoundedView.swift in Sources */,
 				D79E825C21E7F85600DAC211 /* Coordinator.swift in Sources */,
-				D79E825421E7F77500DAC211 /* LocalisedLabel.swift in Sources */,
-				D79E825521E7F77500DAC211 /* LocalisedBarButtonItem.swift in Sources */,
 				D79E825E21E7F86F00DAC211 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
