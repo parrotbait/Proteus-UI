@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D708663F21E8BFD60000E477 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708663E21E8BFD60000E477 /* RoundedView.swift */; };
+		D7126B4721ECE6F3007B32D3 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7126B4621ECE6F3007B32D3 /* ReusableView.swift */; };
+		D7126B4921ECE703007B32D3 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7126B4821ECE703007B32D3 /* NibLoadableView.swift */; };
+		D7126B4C21ECE722007B32D3 /* UICollection+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7126B4B21ECE722007B32D3 /* UICollection+Reusable.swift */; };
+		D7126B4E21ECE739007B32D3 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7126B4D21ECE739007B32D3 /* UITableView+Reusable.swift */; };
 		D79E822821E7F71B00DAC211 /* Proteus_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79E821E21E7F71B00DAC211 /* Proteus_UI.framework */; };
 		D79E822D21E7F71B00DAC211 /* Proteus_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E822C21E7F71B00DAC211 /* Proteus_UITests.swift */; };
 		D79E822F21E7F71B00DAC211 /* Proteus_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = D79E822121E7F71B00DAC211 /* Proteus_UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +31,10 @@
 
 /* Begin PBXFileReference section */
 		D708663E21E8BFD60000E477 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		D7126B4621ECE6F3007B32D3 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		D7126B4821ECE703007B32D3 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		D7126B4B21ECE722007B32D3 /* UICollection+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollection+Reusable.swift"; sourceTree = "<group>"; };
+		D7126B4D21ECE739007B32D3 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		D79E821E21E7F71B00DAC211 /* Proteus_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Proteus_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79E822121E7F71B00DAC211 /* Proteus_UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proteus_UI.h; sourceTree = "<group>"; };
 		D79E822221E7F71B00DAC211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7126B4A21ECE715007B32D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7126B4B21ECE722007B32D3 /* UICollection+Reusable.swift */,
+				D7126B4D21ECE739007B32D3 /* UITableView+Reusable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D79E821421E7F71B00DAC211 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +94,7 @@
 		D79E822021E7F71B00DAC211 /* Proteus-UI */ = {
 			isa = PBXGroup;
 			children = (
+				D7126B4A21ECE715007B32D3 /* Extensions */,
 				D79E826121E7FABC00DAC211 /* Views */,
 				D79E825A21E7F84B00DAC211 /* Patterns */,
 				D79E822121E7F71B00DAC211 /* Proteus_UI.h */,
@@ -107,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				D708663E21E8BFD60000E477 /* RoundedView.swift */,
+				D7126B4621ECE6F3007B32D3 /* ReusableView.swift */,
+				D7126B4821ECE703007B32D3 /* NibLoadableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,9 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7126B4C21ECE722007B32D3 /* UICollection+Reusable.swift in Sources */,
 				D708663F21E8BFD60000E477 /* RoundedView.swift in Sources */,
+				D7126B4921ECE703007B32D3 /* NibLoadableView.swift in Sources */,
 				D79E825C21E7F85600DAC211 /* Coordinator.swift in Sources */,
 				D79E825E21E7F86F00DAC211 /* Storyboarded.swift in Sources */,
+				D7126B4721ECE6F3007B32D3 /* ReusableView.swift in Sources */,
+				D7126B4E21ECE739007B32D3 /* UITableView+Reusable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
